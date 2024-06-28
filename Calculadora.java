@@ -90,7 +90,7 @@ public class Calculadora {
     JButton btn0 = EventoBotoes.createButton("0");
     panel.add(btn0);
 
-    JButton btnPonto = EventoBotoes.createButton(".");
+    JButton btnPonto = EventoBotoes.createButtonDot(".");
     panel.add(btnPonto);
 
     JButton btnDiv = EventoBotoes.createOperatorButton("/");
